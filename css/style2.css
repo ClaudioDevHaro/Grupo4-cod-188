@@ -60,7 +60,7 @@ main{
 }
 
 .contgral{
-    align-items: center;
+    
     display: grid;
     grid-gap:30px;
     grid-auto-rows: 600px;
@@ -179,7 +179,10 @@ div.menu.container{
         align-items: center;
         padding: 0 30px;
     }
-  
+    main{
+        margin-left: 3rem ;
+        margin-right: 3rem;
+    }
    
 }
 form{
@@ -224,9 +227,12 @@ textarea{
 
 }
 button{
-    width: 60px;
+    width: 130px;
+    height: 40px;
     padding: 2px;
     float: right;
+    border-radius: 30px;
+    font-size: 15px;
     
     
 }
@@ -287,7 +293,10 @@ div.footer-texto{
     .foot{
         font-size: 12px;
     }
-
+    main{
+        margin-left: 2rem ;
+        margin-right: 2rem;
+    }
     }
 
 @media(max-width:400px){
@@ -320,5 +329,8 @@ p{
     display: flex;
     flex-direction: column;
 }
-
+main{
+    margin-left: 1rem ;
+    margin-right: 1rem;
+}
 }

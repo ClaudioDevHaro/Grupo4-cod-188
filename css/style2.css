@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+   /*  Reseteadores */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize; /* para que ela primera letra empiece en mayuscula */
+    text-decoration: none;   /* quita las linea de los enlaces */
+    list-style: none; /* quitas las visñetas de las listas */
+}
+
+:root{
+    /* =========color========= */
+    --body-color: #4a5463;
+    --primary-color: #ebf30e;
+    --primary-color-light: #1a1922;
+    --border-color: #AAB1FF;
+    --booton-color: rgba(170,177,255,0.3);    
+    --border-color-hover: rgba(170,177,255,0.3);
+    --booton-color-hover: #000000;
+    --text-color: #AAB1FF;
+    --text-color-dark: #0E0E0E;
+    --text-color-grey: #525254;
+    --navbar-color-media: #ffffffa1;
+    --boxshadow-color: rgba(135,141,214,0.3);
+    --boxshadow-footer-color: rgba(0, 0, 0, 0.3);
+    /* ======Transicion======= */
+    --Trans-02: all 0.2 s ease;
+    --Trans-03: all 0.3 s ease;
+    --Trans-04: all 0.4 s ease;
+    --Trans-05: all 0.5 s ease;
+}
+.bi{
+    font-size: 30px;
+    color: #000000;
+}
+.bi:hover{
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.156);
+    color: #ffffff;
+}
+body{
+   
+    background-image: url(/img/Abstract\ Yellow\ and\ Orange\ Background\ desktop\ PC\ and\ Mac\ wallpaper.jpg) ;
+}
+header{
+    
+    background-position: center bottom;
+    background-repeat: no-repeat; /* hace que la imagen no se repita */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: var(--primary-color-light);
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    font-size: 18px;
+    padding: 20px;
+    color: var(--primary-color);
+
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    display: flex;
+}
+div.menu.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.titulo{
+    font-size: 30px;
+}
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+   
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--navbar-color-media);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 80%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    header{
+        height: auto;
+        padding: 70px 0;
+        background-position: center center;
+        margin-bottom: 0;
+    }
+    .header-content{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0 30px;
+    }
+  
+   
+}
+form{
+    width: 60%;
+    height: 90%;
+    background: ;
+    border-radius: 10px;
+    box-shadow: 0 0 40px -10px #000000;
+    margin:auto;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+   
+
+
+}
+.contactanos{
+    text-align: center;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 4px;
+    margin:5px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.508);
+    outline: #000000;
+    transition: all .3s;
+
+}
+p.mens textarea{
+    resize: none;
+    width: 60%;
+    padding: 10px;
+    margin-left: 5px;
+    align-items: center;
+    
+}
+
+button{
+    width: 60px;
+    padding: 2px;
+    float: right;
+    margin-top: -50px;
+    
+}
+button:hover{
+    background: rgb(185, 163, 18);
+    color: rgb(255, 255, 255);
+}
+.pie{
+    display: flex;
+    flex-direction:row ;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.644);
+}
+
+div.footer-texto{
+    height: 50px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.644);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    
+        
+}
+.foot{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 10px ;
+}

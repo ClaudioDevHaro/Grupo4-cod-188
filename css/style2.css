@@ -190,17 +190,30 @@ button:hover{
     color: rgb(255, 255, 255);
 }
 .pie{
-    display: flex;
-    flex-direction:row ;
+    display: block;
+    
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color: rgba(128, 128, 128, 0.644);
+}
+.padre{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot{
+    font-size: 14px;
+}
+.marca{
+    font-size: 18px;
 }
 
 div.footer-texto{
     height: 50px;
     text-align: center;
-    background-color: rgba(128, 128, 128, 0.644);
+    margin-top:2.5rem;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -208,9 +221,22 @@ div.footer-texto{
     
         
 }
-.foot{
+
+
+@media(max-width:400px){
+
+.titulo{
+    font-size: 15px;
     
-    display: flex;
-    flex-direction: column;
-    font-size: 10px ;
+}
+.bi{
+    font-size: 20px;
+}
+.titulo2{
+    font-size: 23px;
+}
+p{
+    font-size: 16px;
+}
+
 }

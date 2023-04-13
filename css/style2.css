@@ -43,7 +43,7 @@
 }
 body{
    
-    background-image: url(/img/Abstract\ Yellow\ and\ Orange\ Background\ desktop\ PC\ and\ Mac\ wallpaper.jpg) ;
+    background-image: url(../img/background.jpg) ;
 }
 header{
     
@@ -145,7 +145,7 @@ div.menu.container{
 form{
     width: 60%;
     height: 90%;
-    background: ;
+    background: transparent;
     border-radius: 10px;
     box-shadow: 0 0 40px -10px #000000;
     margin:auto;

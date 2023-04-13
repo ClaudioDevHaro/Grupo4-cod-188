@@ -105,6 +105,8 @@ div.menu.container{
 .titulo{
     font-size: 30px;
 }
+
+
 @media(max-width:991px){
     .menu{
         padding: 20px;
@@ -144,7 +146,7 @@ div.menu.container{
 }
 form{
     width: 60%;
-    height: 90%;
+    height: 100%;
     background: transparent;
     border-radius: 10px;
     box-shadow: 0 0 40px -10px #000000;
@@ -169,7 +171,7 @@ input{
     transition: all .3s;
 
 }
-p.mens textarea{
+p .mens textarea{
     resize: none;
     width: 60%;
     padding: 10px;
@@ -177,12 +179,17 @@ p.mens textarea{
     align-items: center;
     
 }
-
+.buton{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    
+}
 button{
     width: 60px;
     padding: 2px;
     float: right;
-    margin-top: -50px;
+    
     
 }
 button:hover{

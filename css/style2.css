@@ -56,6 +56,11 @@ header{
     
 }
 
+.contgral{
+    
+}
+
+
 
 .menu{
     position: absolute;
@@ -171,9 +176,9 @@ input{
     transition: all .3s;
 
 }
-p .mens textarea{
+textarea{
     resize: none;
-    width: 60%;
+    width: 100%;
     padding: 10px;
     margin-left: 5px;
     align-items: center;
@@ -183,7 +188,7 @@ p .mens textarea{
     padding: 1rem 0;
     display: flex;
     justify-content: center;
-    
+
 }
 button{
     width: 60px;
@@ -228,7 +233,29 @@ div.footer-texto{
     
         
 }
+@media(max-width:550px){
 
+    .titulo{
+        font-size: 22px;
+        
+    }
+    .bi{
+        font-size: 23px;
+    }
+    .titulo2{
+        font-size: 23px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .marca{
+        font-size: 16px;
+    }
+    .foot{
+        font-size: 12px;
+    }
+
+    }
 
 @media(max-width:400px){
 
@@ -244,6 +271,21 @@ div.footer-texto{
 }
 p{
     font-size: 16px;
+}
+.marca{
+    font-size: 14px;
+}
+.foot{
+    font-size: 12px;
+}
+.pie{  
+    height: 250px;
+    
+}
+.padre{
+
+    display: flex;
+    flex-direction: column;
 }
 
 }

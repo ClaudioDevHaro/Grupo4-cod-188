@@ -282,7 +282,9 @@ div.footer-texto{
         
 }
 @media(max-width:550px){
-
+    form{
+        width: 75%;
+    }
     .titulo{
         font-size: 22px;
         
@@ -310,6 +312,9 @@ div.footer-texto{
 
 @media(max-width:400px){
 
+form{
+    width: 85%;
+}
 .titulo{
     font-size: 15px;
     

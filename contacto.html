@@ -39,30 +39,30 @@
     </div>
 </header>
   <main>
-    <form class="contacto>">
+    <form class="contacto>" id="form">
       <h3 class="contactanos">CONTACTANOS</h3>
 <div class="mensaje">
-      <label for="nombre">Nombre</label>
-      <input placeholder="Ingresa tú Nombre">
+      <label for="nombre"  >Nombre</label>
+      <input id="name" placeholder="Ingresa tú Nombre" required>
       <label for="apellido">Apellido</label> 
-      <input placeholder="Ingresa tú Apellido">
-      <label for="email">Email</label>
-      <input placeholder="Ingresa tú E-M@il">
+      <input id="apellido" placeholder="Ingresa tú Apellido" required>
+      <label  for="email" >Email</label>
+      <input id="email" placeholder="Ingresa tú E-M@il" required>
       <label for="telefono">Teléfono</label>
-      <input placeholder="Tú Número de Teléfono">
+      <input id="phone" placeholder="Tú Número de Teléfono" required>
       <label for="mensaje">Mensaje</label>
       <br>
       <textarea placeholder="Envianos tu Consulta"></textarea>
       
 <br>
 </div>
-    <div class="buton"><button>Enviar</button></div>
+    <div class="buton" id="enviar"><button>Enviar</button></div>
     
     </form>
 
   </main>
 
-
+<script src="./js/script.js"></script>
 </body>
 <footer class= "pie">
   <div class="padre">

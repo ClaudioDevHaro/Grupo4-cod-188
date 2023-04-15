@@ -42,7 +42,7 @@ function enviar (){
     console.log(a,aa,aaa,aaaa)
     if(a=aa=aaa=aaaa == true){
         formulario.style.backgroundColor="green"
-        alert("Hemos recibido tus datos, noos comunicaremos contigo a la brevedad")
+        alert("¡Hemos recibido tus datos, nos comunicaremos contigo a la brevedad!")
     }
 }
 boton.addEventListener("click", enviar)

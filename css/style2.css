@@ -74,7 +74,7 @@ main{
     background-color: #f6f5ffa6;
     border-radius: 25px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
-    
+    margin: 0 auto;
 
 
 }
@@ -103,6 +103,20 @@ main{
 .contenedor .cont-3 .foto{
     border-radius: 25px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+.vid1{
+    height: 400px;
+    margin-bottom: 40px;
+    margin-top: 180px;
+}
+
+.video{
+    height: ;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 25px;
+
 }
 .menu{
     position: absolute;
@@ -155,6 +169,16 @@ div.menu.container{
 
 
 @media(max-width:991px){
+    
+    .vid1{
+        height: 400px;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+    .video{
+        width: 80%;
+        height: 80%;
+    }
     .menu{
         padding: 20px;
     }
@@ -197,7 +221,7 @@ div.menu.container{
 form{
     width: 60%;
     height: 100%;
-    background: transparent;
+    background-color: #f6f5ffa6;
     border-radius: 10px;
     box-shadow: 0 0 40px -10px #000000;
     margin:auto;

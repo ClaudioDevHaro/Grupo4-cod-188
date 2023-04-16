@@ -111,7 +111,7 @@ main{
 }
 
 .video{
-    height: ;
+    
     display: flex;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -327,10 +327,6 @@ div.footer-texto{
     }
     .foot{
         font-size: 12px;
-    }
-    main{
-        margin-left: 2rem ;
-        margin-right: 2rem;
     }
     }
 
